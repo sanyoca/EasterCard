@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        style="@style/matchmatch"
+        android:src="@drawable/table"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        style="@style/matchmatch"
+        android:layout_margin="@dimen/cardmargin"
+        android:background="@android:color/white"
+        android:id="@+id/card">
+
+        <TextView
+            style="@style/wishing"
+            android:text="@string/wishing"
+            android:id="@+id/wishingtextview"/>
+
+        <TextView
+            style="@style/peace"
+            android:text="@string/peace"
+            android:id="@+id/peacetextview"/>
+
+        <TextView
+            style="@style/love"
+            android:text="@string/love"
+            android:id="@+id/lovetextview"/>
+
+        <TextView
+            style="@style/happiness"
+            android:text="@string/happiness"
+            android:id="@+id/happinesstextview"/>
+
+        <TextView
+            style="@style/at"
+            android:text="@string/at"
+            android:id="@+id/attextview"/>
+
+        <TextView
+            style="@style/easter"
+            android:text="@string/easter"
+            android:id="@+id/eastertextview"/>
+
+        <TextView
+            style="@style/andalways"
+            android:text="@string/andalways"
+            android:id="@+id/andalwaystextview"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/wrapwrap"
+        android:src="@drawable/bunny"
+        android:id="@+id/bunny"
+        android:layout_alignBottom="@id/card"
+        android:layout_alignRight="@id/card"/>
+
+
+    <ImageView
+        style="@style/wrapwrap"
+        android:src="@drawable/flowers"
+        android:id="@+id/flowers"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

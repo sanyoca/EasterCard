@@ -1,0 +1,80 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="matchmatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wrapwrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wishing" parent="wrapwrap">
+        <item name="android:layout_marginTop">@dimen/wishing_margin_top</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@android:color/background_light</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:textSize">@dimen/bigtext</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="peace" parent="wrapwrap">
+        <item name="android:layout_below">@id/wishingtextview</item>
+        <item name="android:layout_alignStart">@id/wishingtextview</item>
+        <item name="android:layout_alignLeft">@id/wishingtextview</item>
+        <item name="android:layout_marginLeft">@dimen/peace_margin_left</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="love" parent="wrapwrap">
+        <item name="android:layout_below">@id/peacetextview</item>
+        <item name="android:layout_alignStart">@id/peacetextview</item>
+        <item name="android:layout_alignLeft">@id/peacetextview</item>
+        <item name="android:layout_marginLeft">@dimen/love_margin_left</item>item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="happiness" parent="wrapwrap">
+        <item name="android:layout_below">@id/lovetextview</item>
+        <item name="android:layout_alignStart">@id/peacetextview</item>
+        <item name="android:layout_alignLeft">@id/peacetextview</item>
+        <item name="android:layout_marginLeft">@dimen/happines_margin_left</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="at" parent="wrapwrap">
+        <item name="android:layout_below">@id/happinesstextview</item>
+        <item name="android:layout_alignStart">@id/wishingtextview</item>
+        <item name="android:layout_alignLeft">@id/wishingtextview</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="easter" parent="wrapwrap">
+        <item name="android:layout_below">@id/happinesstextview</item>
+        <item name="android:layout_toRightOf">@id/attextview</item>
+        <item name="android:textSize">@dimen/bigtext</item>
+        <item name="android:layout_marginLeft">@dimen/easter_margin_left</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="andalways" parent="wrapwrap">
+        <item name="android:layout_below">@id/eastertextview</item>
+        <item name="android:layout_alignStart">@id/happinesstextview</item>
+        <item name="android:layout_alignLeft">@id/happinesstextview</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+    </style>
+</resources>

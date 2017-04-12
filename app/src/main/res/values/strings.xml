@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Easter</string>
+    <string name="wishing">Wishing you</string>
+    <string name="love">love,</string>
+    <string name="happiness">and happiness</string>
+    <string name="at">at</string>
+    <string name="easter">Easter</string>
+    <string name="andalways">and always</string>
+    <string name="peace">peace,</string>
+</resources>
